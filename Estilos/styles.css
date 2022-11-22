@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: -webkit-linear-gradient(0deg, #52c86a 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+    font-family: roboto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logoAGM{
+    block-size: 10rem;
+}
+
+.letrasLogo{
+    text-align: center;
+    width: 35rem;
+    margin: 2rem 2rem 0 2rem;  
+}
+
+.hletras{
+font-size: 250%;
+}
+
+.navbox{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8rem 5rem 2rem 0;
+    
+
+}
+
+.nav{
+   display: flex;
+   list-style: none;
+}
+
+.linu{
+    padding: 1rem;
+}
+
+.nava{
+    background-color: rgb(185, 160, 17);
+    border-radius: 2rem;
+    font-style: roboto;
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+/* main*/
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoApple { 
+    width:30rem;
+    height: 20rem;
+}
+.sectionPri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionDiv{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.click{
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    font-size:2rem;
+    text-decoration: none;
+    color: black;
+
+}
+button{
+    background-color: rgb(60, 197, 19);
+    border-radius: 2rem;
+}
+.logoNote { 
+    width:30rem;
+    height: 20rem;}
+
+/* Footer*/
+
+.footerPri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.redes a{
+    padding: 0 0 0 2rem;
+}
+
+/* Contacto*/
+
+.mainCon{
+    background: rgb(70,156,212);
+    background: -moz-linear-gradient(5deg, rgba(70,156,212,1) 36%, rgba(193,193,185,0.9556197478991597) 65%);
+    background: -webkit-linear-gradient(5deg, rgba(70,156,212,1) 36%, rgba(193,193,185,0.9556197478991597) 65%);
+    background: linear-gradient(5deg, rgba(70,156,212,1) 36%, rgba(193,193,185,0.9556197478991597) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#469cd4",endColorstr="#c1c1b9",GradientType=1);
+    display: flex;
+    flex-direction: column;
+}
+.controls{
+  width : 450px;
+  height: 2rem;
+  padding: 1;
+  margin: 1;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+textarea {
+    font-size: 1.2rem;
+}
+.envioForm{
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    }
+.letra{
+    font-size: 1.2rem;
+}
